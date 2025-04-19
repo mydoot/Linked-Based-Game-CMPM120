@@ -1,3 +1,8 @@
+# Ryle Buaquina Linked Based Game Project 
+## For CMPM 120 at UCSC
+
+Uses StoryGraphTool as a framework. 
+
 # StoryGraphTool
 
 An exercise in building data-driven game design
