@@ -1,0 +1,331 @@
+{
+    "Title": "Secrets of the Ancient Ruins",
+    "Credits": "Created by Ryle Buaquina",
+    "InitialLocation": "Start",
+    "Locations": {
+        "Start": {
+            "Body": "You're in a dark room. You're not sure how you got here.",
+            "Body2": "The two of you arrive back to where you first woke up. In front of you stands a large, metallic door. You look at the keycard in your hand, and then at the keycard reader near the door. There is really only one option.",
+            "Choices": [
+                {
+                    "Text": "Look around.",
+                    "Target": "Start",
+                    "Thought": "There is a large, metallic door in front of you. Is this where you came in?"
+                },
+                {
+                    "Text": "Go east.",
+                    "Target": "Room 1"
+                }
+            ],
+            "Choices2": [
+                {
+                    "Text": "Open the door.",
+                    "Target": "Unknown"
+                },
+                {
+                    "Text": "Go east.",
+                    "Target": "Room 1"
+                }
+            ]
+        },
+        "Room 1": {
+            "Body": "You're met with another dark room.",
+            "Body2": "You and your friend arrive in a dark room.",
+            "Choices": [
+                {
+                    "Text": "Discern your surroundings.",
+                    "Target" : "Room 1",
+                    "Thought": "You look around and touch the walls. The feel of cold steel is the only thing that greets you. If you listen closely, you hear the slight hum of an machine. "
+                },
+                {
+                    "Text": "Go west.",
+                    "Target": "Start"
+                },
+                {
+                    "Text": "Go south.",
+                    "Target": "Room 3"
+                },
+                {
+                    "Text": "Go further east.",
+                    "Target": "Room 2"
+                }
+            ],
+            "Choices2": [
+                {
+                    "Text": "Discern your surroundings.",
+                    "Target" : "Room 1",
+                    "Thought": "You look around and touch the walls. The feel of cold steel is the only thing that greets you. If you listen closely, you hear the slight hum of an machine. "
+                },
+                {
+                    "Text": "Go to where you first woke up.",
+                    "Target": "Start"
+                },
+                {
+                    "Text": "Go back to the previous room.",
+                    "Target": "Room 3"
+                },
+                {
+                    "Text": "Go back to the room with the notebook.",
+                    "Target": "Room 2"
+                }
+            ]
+        },
+        "Room 2": {
+            "Body": "This area is slightly illuminated by a light blue hue. The only things you see in this room is a desk and a steel cabinet of sorts. A peculiar notebook lays flat on that desk. ",
+            "Body2": "You and your friend arrive back in the slightly illuminated room. You realize now it's an office space, much like the office space you were in back in the hallway area. The girl runs over to the notebook laying on the desk.",
+            "Choices": [
+                {
+                    "Text": "Read the notebook.",
+                    "Target": "Room 1",
+                    "Item": "Key",
+                    "Thought": "You open the notebook and try to read the texts within, however the language you find in it is undecipherable to you. There is, however, a small key in one of the pages. You grab that key."
+                },
+                {
+                    "Text": "Return back to the previous room.",
+                    "Target": "Room 1"
+                }
+            ],
+            "Choices2": [
+                {
+                    "Text2": "Go over to the girl.",
+                    "Text": "Read the notebook.",
+                    "Target": "Room 1",
+                    "Thought": "The notebook is undecipherable like you remember.",
+                    "Thought2": "You watch the girl read the notebook, a little jealous that she can read the text on the paper but you can't. Once she finishes reading, she places the book back on the desk, then looks at you. 'You're my brother.'You're in disbelief, but that makes more sense to why she looks like you."
+                },
+                {
+                    "Text": "Return back to the previous room.",
+                    "Target": "Room 1"
+                }
+            ]
+        },
+        "Room 3": {
+            "Body": "Upon entering this room, two doors illuminated by a dim, blue light greet you.",
+            "Body2": "You and your friend arrive back to the area with the two doors.",
+            "Choices": [
+                {
+                    "Text": "Enter the door in front of you.",
+                    "Target": "Room 4",
+                    "Unlocked": "Locked"
+                },
+                {
+                    "Text": "Enter the door to your left.",
+                    "Target": "Room 5"
+                },
+                {
+                    "Text": "Return back to the previous room.",
+                    "Target": "Room 1"
+                }
+            ],
+            "Choices2": [
+                {
+                    "Text": "Head foward.",
+                    "Target": "Room 1"
+                   
+                },
+                {
+                    "Text": "Enter the suspicious door to your right.",
+                    "Target": "Room 5"
+                }
+            ]
+        },
+        "Room 4": {
+            "Body": "You used the key to unlock the door and enter. Upon passing through the door, the atmosphere appears to change. You spy a bright light in front of you, shining between the cracks of a slightly open steel door.",
+            "Choices": [
+                {
+                    "Text": "Open the door and continue to explore.",
+                    "Target": "Hidden Area 2"
+                }
+            ]
+        },
+        "Room 5": {
+            "Body": "You walk through the door on your left, but the second you do the door behinds you shuts itself closed. Your heart rate increases.",
+            "Choices": [
+                {
+                    "Text": "Walk forward...",
+                    "Target": "Beyond"
+                }
+            ]
+        },
+        "Hidden Area 2": {
+            "Body": "You're suddenly met with a bright light. After taking a few seconds to adjust, you look around and are greeted with a wide hallway colored with a pale white. There are illuminated windows that appear to house sealife. The hallways splits into a door ahead of you and a door to the right.",
+            "Body2": "The two of you arrive back in the hallways. The girl seems to be fascinated by the sealife in the small tanks on the walls.",
+            "Choices": [
+                {
+                    "Text": "Walk forward and enter the door further ahead in the hallway",
+                    "Target": "Hidden Area 3"
+                },
+                {
+                    "Text": "Enter the door to the right.",
+                    "Target": "Hidden Area 4"
+                },
+                {
+                    "Text": "Look at the 'windows'",
+                    "Target": "Hidden Area 2",
+                    "Thought": "You walk towards the 'windows', which turn out to be small aquariums. You stare at sealife within for a while, fascinated.",
+                    "Thought2": "The girl runs towards the tanks full of sealife and gazes at them with fascination. You join her at admiring these curious creatures for a while."
+                },
+                {
+                    "Text": "Think about this place.",
+                    "Target": "Hidden Area 2",
+                    "Thought": "You think about the places you were just in, and were surprised to see such a nice looking area in what seemed like a dreary, old, building."
+                }
+            ],
+            "Choices2": [
+                {
+                    "Text": "Walk forward and enter the door further ahead in the hallway",
+                    "Target": "Hidden Area 3"
+                },
+                {
+                    "Text": "Enter the door to the right.",
+                    "Target": "Hidden Area 4"
+                },
+                {
+                    "Text": "Look at the 'windows'",
+                    "Target": "Hidden Area 2",
+                    "Thought": "You walk towards the 'windows', which turn out to be small aquariums. You stare at sealife within for a while, fascinated.",
+                    "Thought2": "The girl runs towards the tanks full of sealife and gazes at them with fascination. You join her at admiring these curious creatures for a while."
+                },
+                {
+                    "Text": "Think about this place.",
+                    "Target": "Hidden Area 2",
+                    "Thought": "You think about the places you were just in, and were surprised to see such a nice looking area in what seemed like a dreary, old, building."
+                },
+                {
+                    "Text": "Leave the hallway",
+                    "Target": "Room 3"
+                }
+            ]
+        },
+        "Hidden Area 4": {
+            "Body": "The room appears to be an empty office space. There was signs someone worked here, but everything in the room looks old and abandoned for quite some time. For some reason, you feel a tinge of sadness.",
+            "Body2": "When the two of you walk into the room, the girl looks a bit sad. 'Someone I liked used to be here.'You feel the same.",
+            "Choices": [
+                {
+                    "Text": "Reminisce.",
+                    "Thought": "For some reason, you have a connection with this room. Someone that was important to you stayed here all the time, and they were always nice to you. You don't remember their face or their name, but you can remember their presence.",
+                    "Target": "Hidden Area 4"
+                },
+                {
+                    "Text": "Go back to the hallway.",
+                    "Target": "Hidden Area 2"
+                },
+                {
+                    "Text": "'There's a notebook on the desk.'",
+                    "Thought": "You notice a notebook on the old desk, and went over to it to try and read it. You find the letters in the notebook to be undecipherable again, like the book you found earlier, but there is a keycard lodged in between the pages. Thinking it's important, you take it.",
+                    "Target": "Hidden Area 4",
+                    "Item": "Keycard"
+                }
+                
+            ],
+            "Choices2": [
+                {
+                    "Text": "Reminisce.",
+                    "Thought": "For some reason, you have a connection with this room. Someone that was important to you stayed here all the time, and they were always nice to you. You don't remember their face or their name, but you can remember their presence.",
+                    "Target": "Hidden Area 4"
+                },
+                {
+                    "Text": "Go back to the hallway.",
+                    "Target": "Hidden Area 2"
+                },
+                {
+                    "Text": "Your friend found a notebook.",
+                    "Thought": "You walks towards the girl, who is reading the notebook that was left on the old desk. While you can't read the notebook, the girl is reading the notebook with intent. Soon, she begins to tear up. You're not sure why, but you feel like you shouldn't pry.After she finished reading, she grabbed the keycard lodged in between the pages and handed it to you. 'I think you should have it.'",
+                    "Target": "Hidden Area 4",
+                    "Item": "Keycard"
+                }
+            ]
+        },
+        "Hidden Area 3": {
+            "Body": "Entering the room, you find that it's dark. However, you find there to be a bright blue tube ahead.",
+            "Body2": "You enter room where you first found the girl. The only thing you see is an open tank platform.",
+            "Choices": [
+                {
+                    "Text": "Walk towards the tube.",
+                    "Target": "A New Discovery"
+                },
+                {
+                    "Text": "Go back to the hallway.",
+                    "Target": "Hidden Area 2"
+                }
+            ],
+            "Choices2": [
+                {
+                    "Text": "Talk to your friend.",
+                    "Thought": "You talk to the girl...",
+                    "Target": "Hidden Area 3"
+                },
+                {
+                    "Text": "Go back to the hallway.",
+                    "Target": "Hidden Area 2"
+                }
+            ]
+        },
+        "A New Discovery": {
+            "Body": "You walk towards the tube. It appears to be a large tank full of a clear liquid, with what appears to be a girl resting inside peacefully. She kind of looks like you, but with longer hair.",
+            "Choices": [
+                {
+                    "Text": "Try to get her out.",
+                    "Target": "Boy Meets Girl"
+                    
+                },
+                {
+                    "Text": "Think about what you found.",
+                    "Target": "A New Discovery",
+                    "Thought": "Looking at the girl in the tank, you feel a sense of relief. You thought you were alone, but it turns out you might have a friend instead."
+                },
+                {
+                    "Text": "Leave this place.",
+                    "Target": "Hidden Area 2"
+                }
+            ]
+        },
+        "Boy Meets Girl": {
+            "Body": "You look around for a way to get the girl in the tank out, and find a button near the tank that says 'OPEN'. You press the button, and after some sounds play that startle you, the tank drains and starts to open. The girl starts to fall from inside, but you catch her when the tank fully opens. She slowly opens her eyes.",
+            "Choices": [
+                {
+                    "Text": "Greet her.",
+                    "Target": "Boy Meets Girl 2"
+                }
+            ]
+        },
+        "Boy Meets Girl 2": {
+            "Body": "You say hi to your new friend, letting her stand on her own. She just stares blankly at you.",
+            "Choices": [
+                {
+                    "Text": "'Do you want to come with me?'",
+                    "Target": "Boy Meets Girl 3",
+                    "KeyObjective": "'Girl that looks like you'"
+                },
+                {
+                    "Text": "'What's your name?'",
+                    "Target": "Boy Meets Girl 2",
+                    "Thought": "The girl rubs her eyes, then says 'I don't have a name'. Coincidentally, when you think about it, neither do you."
+                },
+                {
+                    "Text": "'Why were you in there?'",
+                    "Target": "Boy Meets Girl 2",
+                    "Thought": "'I don't know... I don't really remember.' She looks a bit down."
+                }
+            ]
+        },
+        "Boy Meets Girl 3": {
+            "Body": "The girl stares at you blankly, then says 'Sure.' and walks towards you.She also remarks that you 'Look familiar'.",
+            "Choices": [
+                {
+                    "Text": "Leave this place with the two of you.",
+                    "Target": "Hidden Area 2"
+                }
+            ]
+        },
+        "Beyond": {
+            "Body": "You take small, tender steps. You can't see anything, with the feeling of doom taking you over. Eventually, you come in contact with a metallic object. You're not sure what happened next."
+            
+        },
+        "Unknown": {
+            "Body": "You open the door with the keycard. You're not sure what's past the door, nor are you sure what is going to happen next. The only thing you know is that you only have yourself. You watch the door slowly open, ready to find out whats been hidden from you all this time.",
+            "Body2": "You open the door with the keycard. Hand in hand with the girl that you now know as your sister, the both of you watch the door slowly open. The two of you are not sure what you will see past this door, nor are the two of you sure what will happen next. The only the two of you know is that you only have each other, and that you'll have to face the future together."
+        
+        }
+    }
+}
