@@ -1,7 +1,8 @@
 # Ryle Buaquina Linked Based Game Project 
-## For CMPM 120 at UCSC
-
+**For CMPM 120 at UCSC**
 Uses StoryGraphTool as a framework. 
+
+**V** StoryGraphTool Documentation below **V**
 
 # StoryGraphTool
 
